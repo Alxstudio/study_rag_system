@@ -21,7 +21,7 @@ from sentence_transformers import SentenceTransformer
 # embeddings de frases cortas/medias. No es el modelo más potente que
 # existe, pero es el estándar para empezar en RAG: ligero, gratis, corre
 # en CPU sin problema (no necesitas tarjeta gráfica).
-NOMBRE_MODELO = "all-MiniLM-L6-v2"
+NOMBRE_MODELO = "paraphrase-multilingual-MiniLM-L12-v2"
 
 # Variable a nivel de módulo para guardar el modelo ya cargado.
 # Por qué: cargar el modelo desde disco tarda unos segundos. Si lo
