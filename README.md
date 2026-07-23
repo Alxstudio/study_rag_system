@@ -4,7 +4,7 @@ A custom-built Retrieval-Augmented Generation (RAG) pipeline in Python, designed
 
 ## Why this project
 
-Most "AI-powered" study tools just forward your notes to a chatbot and hope for a good answer. This project implements the actual RAG mechanics by hand: text chunking, embedding generation, a custom vector similarity search engine, and a retrieval layer that grounds every generated question in the user's own notes — with an LLM call used only for the final quiz-writing step, not for deciding what's relevant.
+Most "AI-powered" study tools just forward your notes to a chatbot and hope for a good answer. This project implements the actual RAG mechanics by hand: text chunking, embedding generation, a custom vector similarity search engine, and a retrieval layer that grounds every generated question in the user's own notes with an LLM call used only for the final quiz-writing step, not for deciding what's relevant.
 
 Built while studying for Microsoft's AI-901 (Azure AI Fundamentals) certification, but designed to be certification-agnostic: any exam's domains and study notes can be loaded in without touching the core pipeline.
 
