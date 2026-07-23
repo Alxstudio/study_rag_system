@@ -1,6 +1,6 @@
 # Study RAG System
 
-A custom-built Retrieval-Augmented Generation (RAG) pipeline in Python, designed to turn certification study notes into targeted practice tests — built from the ground up rather than wrapped around a pre-built framework.
+A custom-built Retrieval-Augmented Generation (RAG) pipeline in Python, designed to turn certification study notes into targeted practice tests built from the ground up rather than wrapped around a pre-built framework.
 
 ## Why this project
 
